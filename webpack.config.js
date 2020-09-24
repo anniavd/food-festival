@@ -48,7 +48,7 @@ module.exports = {
     new BundleAnalyzerPlugin({
       analyzerMode: "static", // the report outputs to an HTML file in the dist folder
     }),
-    new WebpackPwaManifest({
+   /* new WebpackPwaManifest({
       name: "Food Event",
       short_name: "Foodies",
       description: "An app that allows you to view upcoming food events.",
@@ -61,7 +61,7 @@ module.exports = {
         sizes: [96, 128, 192, 256, 384, 512],
         destination: path.join("assets", "icons")
       }]
-    })
+    })*/
   ],    
    mode: 'development'
 };
